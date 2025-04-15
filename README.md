@@ -9,3 +9,10 @@ uvicorn main:app --reload --port 8000
 $HBASE_HOME/bin/hbase-daemon.sh start thrift
 ```
 
+- hbase shell
+disable 'messages'
+drop 'messages'
+create 'messages', 'info'
+exit
+
+
